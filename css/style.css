@@ -8,9 +8,24 @@ reset
     box-sizing: border-box;
 }
 
+.box-white {
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.box {
+    width: 100%;
+    padding: 20px;
+    background-color: #0767ED;
+    border: 1px solid white;
+    color: white;
+}
 
 
-.row .col-1 {
-    background-color: lightcoral;
-    border: 1 px solid red;
+.box-green {
+    background-color: green;
+    border: 2px solid white;
+    padding: 1.25rem;
+    margin: 0 .125rem;
 }
